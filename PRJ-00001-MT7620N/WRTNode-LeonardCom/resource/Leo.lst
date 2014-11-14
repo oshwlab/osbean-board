@@ -1,0 +1,115 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 05/11/2012 10:54:21
+
+#Cmp ( order = Reference )
+| C1         100nF       ; C0805       
+| C2         100nF       ; C0805       
+| C3         1uF         ; C0805       
+| C4         100nF       ; C0805       
+| C5         22pF        ; C0805       
+| C6         22pF        ; C0805       
+| C7         1uF         ; C0805       
+| C8         10U         ; SMC_A       
+| C9         10U         ; SMC_A       
+| C10        10U         ; CE2-5       
+| C11        100nF       ; C025-025X050
+| C12        1U          ; C0805       
+| C13        100nf       ; C0805       
+| C14        1U          ; C0805       
+| C15        100nf       ; C0805       
+| D1         CD1206-S01575; DIODE_MINIMELF
+| D2         1N4001      ; DIODE-1N4001
+| F1         MF-MSMF050-2 500mA; L-1812      
+| G1         FLAMINGOEDA-PIC; LOGO-BIRD-MIRROR-018
+| G2         FLAMINGOEDA-LOGO; LOGO-LABLE-MIRROR-070
+| IC1        LMV358MMX   ; LM358MMX-MSOP08
+| IC2        ATMEGA32U4-XUAU; ATMEGA32U4-TQFP44-PAD
+| IC3        LM1117MPXST50; LM1117-SOT223
+| IC4        LP2985-XXDBVR33; LP2985-SOT23-DBV
+| J1         POWERJACK-DC21_2; POWERJACK-DC-2,1MM
+| J2         CON-USB-MICRO-B; CON-USB-MICRO-B-AT
+| JP1        ICSP        ; 2X03        
+| JP2        M08PTH      ; 1X08        
+| JP3        M10PTH      ; 1X08        
+| JP4        M08PTH      ; 1X08        
+| JP5        M06PTH      ; 1X06        
+| L1         ¥≈÷È ; L-CBF-0805  
+| L2         ¥≈÷È ; L-CBF-0805  
+| LED1       LED-yellow-0805; LED-CHIPLED-0805
+| LED2       LED-yellow-0805; LED-CHIPLED-0805
+| LED3       LED-yellow-0805; LED-CHIPLED-0805
+| LED4       LED-green-0805; LED-CHIPLED-0805
+| P1         PINHOLE     ; HOLE-3.2    
+| P2         PINHOLE     ; HOLE-3.2    
+| P3         PINHOLE     ; HOLE-3.2    
+| P4         PINHOLE     ; HOLE-3.2    
+| R1         1M          ; R0805       
+| R2         1K          ; R0805       
+| R3         1M          ; R0805       
+| R4         10K         ; R0805       
+| R5         22          ; R0805       
+| R6         22          ; R0805       
+| R7         1M          ; R0805       
+| S1         RESET       ; SWITCH-TS42-SMD
+| T1         FDN340P     ; MOSFET-P-SOT23
+| X1         16MHz       ; CRYSTAL-3.2-2.5-SMD
+| Z1         CG0603MLC-05E; VARISTOR-CT-CN0805
+| Z2         CG0603MLC-05E; VARISTOR-CT-CN0805
+#End Cmp
+
+#Cmp ( order = Value )
+| 100nF        C1        ; C0805       
+| 100nF        C2        ; C0805       
+| 100nF        C4        ; C0805       
+| 100nF        C11       ; C025-025X050
+| 100nf        C13       ; C0805       
+| 100nf        C15       ; C0805       
+| 10K          R4        ; R0805       
+| 10U          C8        ; SMC_A       
+| 10U          C9        ; SMC_A       
+| 10U          C10       ; CE2-5       
+| 16MHz        X1        ; CRYSTAL-3.2-2.5-SMD
+| 1K           R2        ; R0805       
+| 1M           R1        ; R0805       
+| 1M           R3        ; R0805       
+| 1M           R7        ; R0805       
+| 1N4001       D2        ; DIODE-1N4001
+| 1U           C12       ; C0805       
+| 1U           C14       ; C0805       
+| 1uF          C3        ; C0805       
+| 1uF          C7        ; C0805       
+| 22           R5        ; R0805       
+| 22           R6        ; R0805       
+| 22pF         C5        ; C0805       
+| 22pF         C6        ; C0805       
+| ATMEGA32U4-XUAU IC2       ; ATMEGA32U4-TQFP44-PAD
+| CD1206-S01575 D1        ; DIODE_MINIMELF
+| CG0603MLC-05E Z1        ; VARISTOR-CT-CN0805
+| CG0603MLC-05E Z2        ; VARISTOR-CT-CN0805
+| CON-USB-MICRO-B J2        ; CON-USB-MICRO-B-AT
+| FDN340P      T1        ; MOSFET-P-SOT23
+| FLAMINGOEDA-LOGO G2        ; LOGO-LABLE-MIRROR-070
+| FLAMINGOEDA-PIC G1        ; LOGO-BIRD-MIRROR-018
+| ICSP         JP1       ; 2X03        
+| LED-green-0805 LED4      ; LED-CHIPLED-0805
+| LED-yellow-0805 LED1      ; LED-CHIPLED-0805
+| LED-yellow-0805 LED2      ; LED-CHIPLED-0805
+| LED-yellow-0805 LED3      ; LED-CHIPLED-0805
+| LM1117MPXST50 IC3       ; LM1117-SOT223
+| LMV358MMX    IC1       ; LM358MMX-MSOP08
+| LP2985-XXDBVR33 IC4       ; LP2985-SOT23-DBV
+| M06PTH       JP5       ; 1X06        
+| M08PTH       JP2       ; 1X08        
+| M08PTH       JP4       ; 1X08        
+| M10PTH       JP3       ; 1X08        
+| MF-MSMF050-2 500mA F1        ; L-1812      
+| MH2029-300Y  L1        ; L-CBF-0805  
+| MH2029-300Y  L2        ; L-CBF-0805  
+| PINHOLE      P1        ; HOLE-3.2    
+| PINHOLE      P2        ; HOLE-3.2    
+| PINHOLE      P3        ; HOLE-3.2    
+| PINHOLE      P4        ; HOLE-3.2    
+| POWERJACK-DC21_2 J1        ; POWERJACK-DC-2,1MM
+| RESET        S1        ; SWITCH-TS42-SMD
+#End Cmp
+
+#End List

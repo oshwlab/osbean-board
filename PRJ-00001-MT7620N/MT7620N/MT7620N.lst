@@ -1,0 +1,85 @@
+﻿eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 2013/12/6 17:17:51
+#Cmp ( order = Reference )
+| C1         0.1uF       ; C_C_0805    
+| C2         0.1uF       ; C_C_0805    
+| C3         0.1uF       ; C_C_0805    
+| C4         0.1uF       ; C_C_0805    
+| C5         0.1uF       ; C_C_0805    
+| C6         10pF        ; C_C_0805    
+| C8         0.1uF       ; C_C_0805    
+| C9         0.1uF       ; C_C_0805    
+| C10        4.7uF       ; rcl-C0805   
+| C11        100uF       ; C_CPOL-EUE_2.5-5
+| C12        10uF        ; C_CPOL-EUE_2.5-5
+| C13        100nF       ; C_C_0805    
+| C14        0.1uF/25v   ; rcl-C1206   
+| C15        0.1uF/25V   ; rcl-C1206   
+| C16        100pF       ; C_CPOL_SMCA 
+| C17        0.1uF/25v   ; rcl-C1206   
+| C18        0.1uF/25v   ; rcl-C1206   
+| C19        8.2nF       ; C_C_0805    
+| C20        680pF       ; C_C_0805    
+| C21        10nF        ; C_C_0805    
+| C22        220uF/16V   ; C_CPOL-EUE_2.5-6
+| C23        0.1uF/25v   ; rcl-C1206   
+| C24        0.1uF       ; C_C_0805    
+| C25        0.1uF       ; C_C_0805    
+| C26        0.1uF       ; C_C_0805    
+| C27        0.1uF       ; C_C_0805    
+| C28        0.1uF       ; C_C_0805    
+| C29        100pF       ; rcl-C0805   
+| C30        100pF       ; rcl-C0805   
+| C31        C-EUC1206   ; rcl-C1206   
+| D1         C_DIODE-1N400X_DO41; C_DIODE-1N4148_DO41
+| D2         C_DIODE-1N4148_MINIMELF; C_DIODE-1N4148_MINIMELF
+| J1         C_POWERJACK-DC_2,1MM; C_POWERJACK-DC_2,1MM（电源座）
+| JP1        IO_FM13X2   ; IO_FM13X2   （排针插座）
+| JP2        IO_FM13X2   ; IO_FM13X2   
+| L1         15uH        ; C_L-CBF_0805
+| LED1       C_LED_LED3MM; C_LED_LED3MM(绿色直插二极管)
+| LED2       C_LED_LED3MM; C_LED_LED3MM
+| LED3       C_LED_LED3MM; C_LED_LED3MM
+| LED4       C_LED_LED3MM; C_LED_LED3MM
+| LED5       C_LED_LED3MM; C_LED_LED3MM
+| LED6       C_LED_LED3MM; C_LED_LED3MM
+| LED7       C_LED_LED3MM; C_LED_LED3MM
+| LED9       C_LED_LED3MM; C_LED_LED3MM
+| R5         330         ; C_R_0805    
+| R6         330         ; C_R_0805    
+| R7         330         ; C_R_0805    
+| R8         330         ; C_R_0805    
+| R9         330         ; C_R_0805    
+| R10        4.7k        ; C_R_0805    
+| R11        0           ; C_R_0805    
+| R12        330         ; C_R_0805    
+| R14        4.7k        ; C_R_0805    
+| R16        0           ; C_R_0805    
+| R17        330         ; C_R_0805    
+| R18        0           ; C_R_0805    
+| R19        47K         ; C_R_0805    
+| R20        470         ; C_R_0805    
+| R21        100         ; C_R_0805    
+| R22        100K        ; C_R_0805    
+| R23        0           ; C_R_0805    
+| R24        3k/1%       ; C_R_0805    
+| R25        39k/1%      ; C_R_0805    
+| R26        15k/1%      ; C_R_0805    
+| R27        75          ; C_R_0805    
+| R28        75          ; C_R_0805    
+| R29        75          ; C_R_0805    
+| R30        75          ; C_R_0805    
+| R31        75          ; C_R_0805    
+| R32        C_R_0805    ; C_R_0805    
+| S1         C_SW_OMRON-10-XX; SW_6*6*6    
+| U1         AT24C04A_SOP08; AT24C04A_SOP08
+| U2         G693L_SOT_143; G693L_SOT_143
+| U3         IC_LM340_TO_220; IC_LM340_TO_220
+| U4         IO-USB-A    ; IO-USB-A    
+| U5         IT_7652_SOP08; IT_7652_SOP08
+| U6         HN2066CG_DIP20; HN2066CG_DIP20
+| U7         HN1674CG_DIP16; HN1674CG_DIP16
+| U8         HN2066CG_DIP20; HN2066CG_DIP20
+| U9         IO_RJ45X1-JACK; IO_RJ45X1  （电话座） 
+| U10        RJ45-4*1    ; RJ45-4*1    （电话座）
+#End Cmp
+
