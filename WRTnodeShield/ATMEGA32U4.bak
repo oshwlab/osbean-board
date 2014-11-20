@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2014/11/20 17:18:07
+EESchema Schematic File Version 2  date 2014/11/20 16:59:39
 LIBS:C
 LIBS:IC
 LIBS:power
@@ -575,43 +575,43 @@ Wire Wire Line
 	6700 3300 6850 3300
 Wire Wire Line
 	6700 2400 6950 2400
-Text Label 8450 2900 0    60   ~ 0
-IO11*
-Text Label 10100 2500 0    60   ~ 0
-D3/SCL
-Text Label 8450 2500 0    60   ~ 0
-D2/SDA
-Text Label 8450 2400 0    60   ~ 0
-D0/RX
-Text Label 10100 2400 0    60   ~ 0
-D1/TX
-Text Label 10100 2900 0    60   ~ 0
-IO12
 Text Label 10100 2600 0    60   ~ 0
-D6*
-Text Label 10100 2700 0    60   ~ 0
-IO8
-Text Label 8450 2800 0    60   ~ 0
-IO9*
-Text Label 10100 2800 0    60   ~ 0
-IO10*
+IO11*
+Text Label 8450 2400 0    60   ~ 0
+D3/SCL
+Text Label 10100 2400 0    60   ~ 0
+D2/SDA
+Text Label 8450 2500 0    60   ~ 0
+D0/RX
+Text Label 10100 2500 0    60   ~ 0
+D1/TX
 Text Label 8450 2600 0    60   ~ 0
+IO12
+Text Label 10100 2700 0    60   ~ 0
+D6*
+Text Label 8450 2700 0    60   ~ 0
+IO8
+Text Label 10100 2800 0    60   ~ 0
+IO9*
+Text Label 8450 2800 0    60   ~ 0
+IO10*
+Text Label 10100 2900 0    60   ~ 0
 D5*
-Text Label 8450 3000 0    60   ~ 0
+Text Label 8450 2900 0    60   ~ 0
 IO13*
 Text Label 10100 3000 0    60   ~ 0
 A0
-Text Label 8450 3100 0    60   ~ 0
+Text Label 8450 3000 0    60   ~ 0
 A1
 Text Label 10100 3100 0    60   ~ 0
 A2
-Text Label 8450 3200 0    60   ~ 0
+Text Label 8450 3100 0    60   ~ 0
 A3
 Text Label 10100 3200 0    60   ~ 0
 A4
-Text Label 8450 3300 0    60   ~ 0
+Text Label 8450 3200 0    60   ~ 0
 A5
-Text Label 8450 2700 0    60   ~ 0
+Text Label 10100 3300 0    60   ~ 0
 D7
 Wire Wire Line
 	8850 2400 8450 2400
@@ -703,12 +703,12 @@ Wire Wire Line
 $Comp
 L +5V #PWR060
 U 1 1 546E13FD
-P 10100 3300
-F 0 "#PWR060" H 10100 3390 20  0001 C CNN
-F 1 "+5V" H 10100 3390 30  0000 C CNN
-F 2 "" H 10100 3300 60  0000 C CNN
-F 3 "" H 10100 3300 60  0000 C CNN
-	1    10100 3300
-	0    1    1    0   
+P 8450 3300
+F 0 "#PWR060" H 8450 3390 20  0001 C CNN
+F 1 "+5V" H 8450 3390 30  0000 C CNN
+F 2 "" H 8450 3300 60  0000 C CNN
+F 3 "" H 8450 3300 60  0000 C CNN
+	1    8450 3300
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

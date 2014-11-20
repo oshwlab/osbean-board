@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2014/11/20 17:18:07
+EESchema Schematic File Version 2  date 2014/11/20 16:59:39
 LIBS:C
 LIBS:IC
 LIBS:power
@@ -235,13 +235,13 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 52D65C33
-P 4000 6000
-F 0 "#PWR07" H 4000 5900 30  0001 C CNN
-F 1 "GND" H 4000 5930 30  0001 C CNN
-F 2 "~" H 4000 6000 60  0000 C CNN
-F 3 "~" H 4000 6000 60  0000 C CNN
-	1    4000 6000
-	0    -1   -1   0   
+P 2650 6000
+F 0 "#PWR07" H 2650 5900 30  0001 C CNN
+F 1 "GND" H 2650 5930 30  0001 C CNN
+F 2 "~" H 2650 6000 60  0000 C CNN
+F 3 "~" H 2650 6000 60  0000 C CNN
+	1    2650 6000
+	0    1    1    0   
 $EndComp
 Text Label 2650 6100 2    60   ~ 0
 SPI_MISO
@@ -1063,7 +1063,7 @@ F 3 "~" H 3250 6100 60  0000 C CNN
 	1    3250 6100
 	1    0    0    -1  
 $EndComp
-Text Label 2650 6000 2    60   ~ 0
+Text Label 4000 6000 0    60   ~ 0
 WRT33V
 Wire Wire Line
 	3750 6000 4000 6000
