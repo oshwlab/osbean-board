@@ -1,6 +1,6 @@
-update=2014/11/20 15:29:39
+update=2014/11/21 12:08:33
 version=1
-last_client=pcbnew
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,23 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=../../rhky-pcb/common/lib;../../rhky-pcb/common/lib-request
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=C
-LibName2=IC
-LibName3=power
-LibName4=rcl
-LibName5=gl
-LibName6=I-O
-LibName7=REQUEST
-LibName8=SchumyHao
 [pcbnew]
 version=1
 LastNetListRead=MT7620N.net
@@ -52,3 +35,20 @@ LibName4=I-O
 LibName5=mini6
 LibName6=name
 LibName7=gl
+[eeschema]
+version=1
+LibDir=../../rhky-pcb/common/lib;../../rhky-pcb/common/lib-request
+NetFmtName=PcbnewAdvanced
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=C
+LibName2=IC
+LibName3=power
+LibName4=rcl
+LibName5=gl
+LibName6=I-O
+LibName7=REQUEST
+LibName8=SchumyHao
