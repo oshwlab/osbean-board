@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2014/11/21 12:19:35
+EESchema Schematic File Version 2  date 2014/11/26 13:45:51
 LIBS:C
 LIBS:IC
 LIBS:power
@@ -14,7 +14,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "21 nov 2014"
+Date "26 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -243,18 +243,6 @@ F 3 "~" H 4000 6000 60  0000 C CNN
 	1    4000 6000
 	0    -1   -1   0   
 $EndComp
-Text Label 2650 6100 2    60   ~ 0
-SPI_MISO
-Text Label 4000 6100 0    60   ~ 0
-SPI_MOSI
-Text Label 2650 6200 2    60   ~ 0
-SPI_WP
-Text Label 4000 6200 0    60   ~ 0
-SPI_HOLD
-Text Label 2650 6300 2    60   ~ 0
-SPI_CLK
-Text Label 4000 6300 0    60   ~ 0
-SPI_CS1
 Text Label 2650 6400 2    60   ~ 0
 I2C_SCLK
 Text Label 4000 6400 0    60   ~ 0
@@ -929,8 +917,6 @@ F 3 "~" H 6800 4400 60  0000 C CNN
 	1    6800 4400
 	0    -1   -1   0   
 $EndComp
-Text Label 6800 4000 0    60   ~ 0
-MCU5V
 Wire Wire Line
 	6350 4600 7200 4600
 Wire Wire Line
@@ -1037,38 +1023,15 @@ F5 "VBUS4" I R 6900 6350 60
 F6 "D4" I L 4800 6000 60 
 $EndSheet
 Wire Wire Line
-	3750 6100 4000 6100
+	3300 6400 4000 6400
 Wire Wire Line
-	3750 6200 4000 6200
-Wire Wire Line
-	3750 6300 4000 6300
-Wire Wire Line
-	3750 6400 4000 6400
-Wire Wire Line
-	2650 6100 2850 6100
-Wire Wire Line
-	2650 6200 2850 6200
-Wire Wire Line
-	2650 6300 2850 6300
-Wire Wire Line
-	2650 6400 2850 6400
-$Comp
-L IO_M05X2 JP3
-U 1 1 546DF7F7
-P 3250 6100
-F 0 "JP3" H 3280 6445 60  0000 C CNN
-F 1 "IO_M05X2" H 3300 6350 60  0000 C CNN
-F 2 "IO_M05X2" H 3305 5665 60  0001 C CNN
-F 3 "~" H 3250 6100 60  0000 C CNN
-	1    3250 6100
-	1    0    0    -1  
-$EndComp
+	2650 6400 3200 6400
 Text Label 2650 6000 2    60   ~ 0
 WRT33V
 Wire Wire Line
-	3750 6000 4000 6000
+	3300 6000 4000 6000
 Wire Wire Line
-	2850 6000 2650 6000
+	2650 6000 3200 6000
 $Comp
 L AO3416 Q2
 U 1 1 546E1F7F
@@ -1091,4 +1054,56 @@ F 3 "~" H 4350 4650 60  0000 C CNN
 	1    4350 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L IO_M02X1 JP3
+U 1 1 5474263A
+P 3250 5750
+F 0 "JP3" H 3230 5560 60  0000 C CNN
+F 1 "IO_M02X1" H 3240 5940 60  0000 C CNN
+F 2 "IO_M02X1" H 3240 5940 60  0001 C CNN
+F 3 "~" H 3250 5750 60  0000 C CNN
+	1    3250 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L IO_M02X1 JP8
+U 1 1 547429BF
+P 3250 6650
+F 0 "JP8" H 3230 6460 60  0000 C CNN
+F 1 "IO_M02X1" H 3240 6840 60  0000 C CNN
+F 2 "IO_M02X1" H 3240 6840 60  0001 C CNN
+F 3 "~" H 3250 6650 60  0000 C CNN
+	1    3250 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR019
+U 1 1 54752FD0
+P 6800 4000
+F 0 "#PWR019" H 6800 4090 20  0001 C CNN
+F 1 "+5V" H 6800 4090 30  0000 C CNN
+F 2 "~" H 6800 4000 60  0000 C CNN
+F 3 "~" H 6800 4000 60  0000 C CNN
+	1    6800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L IO_M02X1 JP10
+U 1 1 54756997
+P 3600 2500
+F 0 "JP10" H 3580 2310 60  0000 C CNN
+F 1 "IO_M02X1" H 3590 2690 60  0000 C CNN
+F 2 "IO_M02X1" H 3590 2690 60  0001 C CNN
+F 3 "~" H 3600 2500 60  0000 C CNN
+	1    3600 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 2450 3050 2450
+Wire Wire Line
+	3350 2550 3050 2550
+Text Label 3050 2550 0    60   ~ 0
+LINK4
+Text Label 3050 2450 0    60   ~ 0
+LINK3
 $EndSCHEMATC
