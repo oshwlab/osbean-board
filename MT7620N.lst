@@ -1,16 +1,16 @@
-锘縠eschema (2013-07-07 BZR 4022)-stable  >> Creation date: 2014/5/12 9:38:08
+eeschema (2013-03-19 BZR 4004)-stable  >> Creation date: 2014/11/27 11:31:51
 #Cmp ( order = Reference )
 | C1         470uF/6.3V  ; C_CPOL_SMCE 
 | C2         MLCC_C3216X7R1E475K/4.7uF/25V; rcl-C1206   
 | C3         100N        ; C_C_0603    
 | C4         0.1UF       ; C_C_0603    
-| C5         104         ; C_C_0603    
+| C5         100N        ; C_C_0603    
 | C6         22uF        ; C_C_0603    
 | C7         6.8NF       ; C_C_0603    
 | C8         4.7uF       ; C_C_0603    
 | C9         10NF        ; C_C_0603    
 | C10        MLCC_C3216X7R1E106KT/10uF/4.5V; rcl-C1206   
-| C11        104         ; C_C_0603    
+| C11        1Uf         ; C_C_0603    
 | C12        1uF         ; C_C_0603    
 | C13        1uF         ; C_C_0603    
 | C14        0.1uF       ; C_C_0603    
@@ -26,15 +26,15 @@
 | C24        12p         ; C_C_0603    
 | C25        0.1uF       ; C_C_0603    
 | C26        0.1uF       ; C_C_0603    
-| C27        0.1uF       ; C_C_0603    
+| C27        100N        ; C_C_0603    
 | C28        0.1uF       ; C_C_0603    
-| C29        0.1uF       ; C_C_0603    
+| C29        100N        ; C_C_0603    
 | C30        0.1uF       ; C_C_0603    
 | C31        68uF        ; C_CPOL_SMCB 
 | C32        68uF        ; C_CPOL_SMCB 
 | C33        68uF        ; C_CPOL_SMCB 
 | C34        68uF        ; C_CPOL_SMCB 
-| C35        104         ; C_C_0603    
+| C35        22p         ; C_C_0603    
 | C36        MLCC_C3216X7R1E106KT/10uF/4.5V; rcl-C1206   
 | C37        10uF        ; C_CPOL_SMCA 
 | C38        10uF        ; C_CPOL_SMCA 
@@ -42,12 +42,18 @@
 | C40        0.1uF       ; C_C_0603    
 | C41        0.1uF       ; C_C_0603    
 | C42        0.1uF       ; C_C_0603    
+| C43        22p         ; C_C_0603    
+| C44        1Uf         ; C_C_0603    
+| D1         C_DIODE-1N4148_MINIMELF; C_DIODE-1N4148_MINIMELF
 | D2         C_B130_13_F_SMA; C_B130      
-| J1         IO_USB-MICRO-B; IO_USB-MICRO-B-B
-| JP1        IO_FM13X2   ; IO_FM13X2   
-| JP2        IO_FM13X2   ; IO_FM13X2   
-| JP3        IO_FFC_4_2MM; IO_FFC_4_2MM
-| JP4        FPC-16PIN   ; FPC-16PIN   
+| IC1        IC_ATMEGA32U4_TQFP44; IC_ATMEGA32U4_TQFP44
+| J1         IO_USB-MICRO-B-MK5P; IO_USB-MICRO-B-MK5P
+| JP1       上面2×13的2.0mm插座
+| JP2       下面2×13的2.0mm插座
+| HUB3V3     2.54MM两位插针
+| WRT3V3     2.54MM两位插针
+| MCU5V      2.54MM两位插针
+| JP6        左边2*18弯插针
 | L1         CDRH74NP-100MC/10uH/4A; rcl-L7070   
 | L2         32OHM/BEAD  ; rcl-L0805   
 | L3         BLM21PG221SN1; rcl-L0805   
@@ -57,24 +63,18 @@
 | L7         BLM21PG221SN1; rcl-L0805   
 | L8         BLM21PG221SN1; rcl-L0805   
 | L9         BLM21PG221SN1; rcl-L0805   
-| L10        BLM21PG221SN1; rcl-L0805   
-| L11        BLM21PG221SN1; rcl-L0805   
-| L12        BLM21PG221SN1; rcl-L0805   
-| L13        BLM21PG221SN1; rcl-L0805   
-| L14        32OHM/BEAD  ; rcl-L0805   
+| L10        L-EUL0603   ; rcl-L0603   
 | L15        32OHM/BEAD  ; rcl-L0805   
-| L16        32OHM/BEAD  ; rcl-L0805   
-| L17        10uH        ; rcl-L0603   
-| L18        32OHM/BEAD  ; rcl-L0805   
-| L19        32OHM/BEAD  ; rcl-L0805   
-| LED1       Green       ; C_LED_0805  
-| R1         220         ; C_R_0603    
+| LED1       Green       ; C_LED_0805   
+| Q1         AO3416      ; 
+| Q2         AO3416      ; 
+| R1         1M          ; C_R_0603    
 | R2         100K        ; C_R_0603    
-| R3         49.9        ; C_R_0603    
-| R4         49.9        ; C_R_0603    
+| R3         10K         ; C_R_0603    
+| R4         1M          ; C_R_0603    
 | R5         6.8K        ; C_R_0603    
 | R6         10K/1%      ; C_R_0603    
-| R7         26.1K/1%    ; C_R_0603    
+| R7         27.8K/1%    ; C_R_0603    
 | R8         10K         ; C_R_0603    
 | R9         10k         ; C_R_0603    
 | R10        15k         ; C_R_0603    
@@ -88,28 +88,28 @@
 | R18        10K         ; C_R_0603    
 | R19        10K         ; C_R_0603    
 | R20        10K         ; C_R_0603    
-| R21        49.9        ; C_R_0603    
-| R22        49.9        ; C_R_0603    
+| R21        1M          ; C_R_0603    
+| R22        10K         ; C_R_0603    
 | R23        330         ; C_R_0603    
+| R24        10K         ; C_R_0603    
+| R25        10K         ; C_R_0603    
+| R26        10K         ; C_R_0603    
+| R27        NO          ; C_R_0603 不焊   
+| R28        NO          ; C_R_0603 不焊   
+| T1         AO3415      ; 
 | U1         IC_MP1484EN_SOIC08; IC_MP1484EN_SOIC08
 | U2         DLW21SN900SQ2; DLW21SN900SQ2
 | U3         IP4220CZ6   ; IP4220CZ6_SOT23_6
 | U4         UPD720114-QFP48; UPD720114-QFP48
-| U5         DLW21SN900SQ2; DLW21SN900SQ2
-| U6         HR911105A   ; HR911105A   
-| U7         DLW21SN900SQ2; DLW21SN900SQ2
-| U8         IO_USB_A_90 ; IO-USB-A    
+| U5         USB-AF-90   ; USB-AF-90   
 | U9         DLW21SN900SQ2; DLW21SN900SQ2
 | U10        DLW21SN900SQ2; DLW21SN900SQ2
-| U11        IP4220CZ6   ; IP4220CZ6_SOT23_6
-| U12        IP4220CZ6   ; IP4220CZ6_SOT23_6
 | U13        IP4220CZ6   ; IP4220CZ6_SOT23_6
 | U14        IP4220CZ6   ; IP4220CZ6_SOT23_6
-| U15        AP2146     ; AP2146_SOP8 
-| U16        AP2146      ; AP2146_SOP8 
-| U17        IO_USB_A_90 ; IO-USB-A    
-| U18        IO_USB_A_90 ; IO-USB-A    
-| U19        IO_USB_A_90 ; IO-USB-A    
+| U15        AP2146      ; AP1212_SOP8 
+| U16        AP2146      ; AP1212_SOP8 
 | X1         30MHz       ; C_CRY_5.0-3.2
+| X2         16m         ; C_CRY_3.2-2.5
 #End Cmp
 
+#鍒楄〃缁撴潫

@@ -1,4 +1,4 @@
-update=2014/11/26 18:43:20
+update=2014/11/27 11:56:53
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -10,28 +10,27 @@ EquName1=devcms
 version=1
 [eeschema]
 version=1
-LibDir=../../rhky-pcb/common/lib;../../rhky-pcb/common/lib-request
+LibDir=lib
 NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=C
-LibName2=IC
-LibName3=power
-LibName4=rcl
-LibName5=gl
-LibName6=I-O
-LibName7=REQUEST
-LibName8=SchumyHao
+LibName1=power
+LibName2=5V DC ADAPTER-cache
+LibName3=5V to 3.3V-cache
+LibName4=ATMEGA32U4-cache
+LibName5=MT7620N-cache
+LibName6=uPD720114-cache
+LibName7=WLAN-cache
 [pcbnew]
 version=1
 LastNetListRead=MT7620N.net
 UseCmpFile=0
-PadDrill=1
-PadSizeH=1.7
-PadSizeV=3.2
+PadDrill=1.016
+PadSizeH=1.8
+PadSizeV=1.8
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3
@@ -44,7 +43,7 @@ DrawSegmentWidth=0.0762
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.2
 [pcbnew/libraries]
-LibDir=../rhky-pcb/common/lib;../../../Desktop;../../../Desktop/OSHW_logo_KiCad_scalable/OSHW_logo_KiCad_scalable/lib;../rhky-pcb/common/tools
+LibDir=lib;../rhky-pcb/common/tools;../rhky-pcb/common/lib
 LibName1=C
 LibName2=IC
 LibName3=rcl
@@ -53,4 +52,4 @@ LibName5=name
 LibName6=opensouce
 LibName7=mini7
 LibName8=OSHW-logo
-LibName9=OSB2
+LibName9=OSB6
