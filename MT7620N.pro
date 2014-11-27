@@ -1,4 +1,4 @@
-update=2014/11/26 16:33:00
+update=2014/11/26 18:43:20
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -29,9 +29,9 @@ LibName8=SchumyHao
 version=1
 LastNetListRead=MT7620N.net
 UseCmpFile=0
-PadDrill=1.016
-PadSizeH=1.8
-PadSizeV=1.8
+PadDrill=1
+PadSizeH=1.7
+PadSizeV=3.2
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3
@@ -44,7 +44,7 @@ DrawSegmentWidth=0.0762
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.2
 [pcbnew/libraries]
-LibDir=../../rhky-pcb/common/lib;../../rhky-pcb/common/lib-request;../WRTnodeShield;../../rhky-pcb/common/lib/logo V03/BACK;../../../../Desktop/OSHW_logo_KiCad_scalable/OSHW_logo_KiCad_scalable/lib;../../rhky-pcb/common/tools
+LibDir=../rhky-pcb/common/lib;../../../Desktop;../../../Desktop/OSHW_logo_KiCad_scalable/OSHW_logo_KiCad_scalable/lib;../rhky-pcb/common/tools
 LibName1=C
 LibName2=IC
 LibName3=rcl
@@ -53,3 +53,4 @@ LibName5=name
 LibName6=opensouce
 LibName7=mini7
 LibName8=OSHW-logo
+LibName9=OSB2
