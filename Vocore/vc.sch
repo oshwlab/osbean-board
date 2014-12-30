@@ -1,0 +1,255 @@
+EESchema Schematic File Version 2  date 2014/12/18 12:54:23
+LIBS:C
+LIBS:IC
+LIBS:I-O
+LIBS:power
+LIBS:rcl
+LIBS:gl
+LIBS:vocore-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date "18 dec 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IO_M14X1 JP?
+U 1 1 549308EA
+P 2600 2600
+F 0 "JP?" H 2455 3645 60  0000 C CNN
+F 1 "IO_M14X1" H 2505 3550 60  0000 C CNN
+F 2 "IO_M14X1" H 2565 1950 60  0001 C CNN
+F 3 "~" H 2600 2600 60  0000 C CNN
+	1    2600 2600
+	-1   0    0    -1  
+$EndComp
+Text Label 2250 1900 2    60   ~ 0
+RESET
+Text Label 2250 1800 2    60   ~ 0
+GND
+Text Label 2250 2000 2    60   ~ 0
+G#02/I2C_SD
+Wire Wire Line
+	2250 1800 2500 1800
+Wire Wire Line
+	2250 1900 2500 1900
+Wire Wire Line
+	2250 2000 2500 2000
+Wire Wire Line
+	2250 2100 2500 2100
+Wire Wire Line
+	2250 2200 2500 2200
+Wire Wire Line
+	2250 2300 2500 2300
+Wire Wire Line
+	2250 2500 2500 2500
+Wire Wire Line
+	2250 2600 2500 2600
+Wire Wire Line
+	2250 2700 2500 2700
+Wire Wire Line
+	2250 2800 2500 2800
+Wire Wire Line
+	2250 2900 2500 2900
+Wire Wire Line
+	2250 3000 2500 3000
+Wire Wire Line
+	2250 3100 2500 3100
+Text Label 2250 2100 2    60   ~ 0
+G#01/I2C_SCLK
+Text Label 2250 2200 2    60   ~ 0
+G#18/JTAG_TDI
+Text Label 2250 2300 2    60   ~ 0
+G#00
+Text Label 2250 2400 2    60   ~ 0
+G#19/JTAG_TMS
+Text Label 2250 2500 2    60   ~ 0
+G#20/JTAG_TCLK
+Text Label 2250 2600 2    60   ~ 0
+G#21/JTAG_TRST
+Text Label 2250 2700 2    60   ~ 0
+G#17/JTAG_TDO
+Text Label 2250 2800 2    60   ~ 0
+GND
+Text Label 2250 2900 2    60   ~ 0
++5V
+Text Label 2250 3100 2    60   ~ 0
+GND
+$Comp
+L IO_M14X1 JP?
+U 1 1 5493090B
+P 2600 4200
+F 0 "JP?" H 2455 5245 60  0000 C CNN
+F 1 "IO_M14X1" H 2505 5150 60  0000 C CNN
+F 2 "IO_M14X1" H 2565 3550 60  0001 C CNN
+F 3 "~" H 2600 4200 60  0000 C CNN
+	1    2600 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3400 2500 3400
+Wire Wire Line
+	2250 3500 2500 3500
+Wire Wire Line
+	2250 3600 2500 3600
+Wire Wire Line
+	2250 3700 2500 3700
+Wire Wire Line
+	2250 3800 2500 3800
+Wire Wire Line
+	2250 3900 2500 3900
+Wire Wire Line
+	2250 4000 2500 4000
+Wire Wire Line
+	2250 4100 2500 4100
+Wire Wire Line
+	2250 4200 2500 4200
+Wire Wire Line
+	2250 4300 2500 4300
+Wire Wire Line
+	2250 4400 2500 4400
+Wire Wire Line
+	2250 4500 2500 4500
+Wire Wire Line
+	2250 4600 2500 4600
+Wire Wire Line
+	2250 4700 2500 4700
+Text Label 2250 3400 2    60   ~ 0
+G#14/PCM_DTX
+Text Label 2250 3500 2    60   ~ 0
+G#26/LED4
+Text Label 2250 3600 2    60   ~ 0
+G#25/LED3
+Text Label 2250 3700 2    60   ~ 0
+G#24/LED2
+Text Label 2250 3800 2    60   ~ 0
+G#13/PCM_DRX
+Text Label 2250 3900 2    60   ~ 0
+G#23/LED1
+Text Label 2250 4000 2    60   ~ 0
+G#27/SPI_CS1
+Text Label 2250 4100 2    60   ~ 0
+G#05/SPI_MOSI
+Text Label 2250 4200 2    60   ~ 0
+G#04/SPI_CLK
+Text Label 2250 4300 2    60   ~ 0
++1.8V
+Text Label 2250 4400 2    60   ~ 0
+G#08/I2S_WS/TDX
+Text Label 2250 4500 2    60   ~ 0
+G#22/LED0
+Text Label 2250 4600 2    60   ~ 0
+G#09/I2S_SD0
+Text Label 2250 4700 2    60   ~ 0
+G#12/PCM_CLK
+$Comp
+L IO_M11X1 JP?
+U 1 1 5493092D
+P 2600 5900
+F 0 "JP?" H 2455 6945 60  0000 C CNN
+F 1 "IO_M11X1" H 2505 6850 60  0000 C CNN
+F 2 "IO_M11X1" H 2515 5550 60  0001 C CNN
+F 3 "~" H 2600 5900 60  0000 C CNN
+	1    2600 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IO_M08X1 JP?
+U 1 1 54930933
+P 2600 7050
+F 0 "JP?" H 2455 8095 60  0000 C CNN
+F 1 "IO_M08X1" H 2505 8000 60  0000 C CNN
+F 2 "IO_M08X1" H 2515 7050 60  0001 C CNN
+F 3 "~" H 2600 7050 60  0000 C CNN
+	1    2600 7050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5100 2500 5100
+Wire Wire Line
+	2250 5200 2500 5200
+Wire Wire Line
+	2250 5300 2500 5300
+Wire Wire Line
+	2250 5400 2500 5400
+Wire Wire Line
+	2250 5500 2500 5500
+Wire Wire Line
+	2250 5600 2500 5600
+Wire Wire Line
+	2250 5700 2500 5700
+Wire Wire Line
+	2250 5800 2500 5800
+Wire Wire Line
+	2250 5900 2500 5900
+Wire Wire Line
+	2250 6000 2500 6000
+Wire Wire Line
+	2250 6100 2500 6100
+Wire Wire Line
+	2250 6250 2500 6250
+Wire Wire Line
+	2250 6350 2500 6350
+Wire Wire Line
+	2250 6450 2500 6450
+Wire Wire Line
+	2250 6550 2500 6550
+Wire Wire Line
+	2250 6650 2500 6650
+Wire Wire Line
+	2250 6750 2500 6750
+Wire Wire Line
+	2250 6850 2500 6850
+Wire Wire Line
+	2250 6950 2500 6950
+Text Label 2250 3000 2    60   ~ 0
++5V
+Text Label 2250 5100 2    60   ~ 0
++3.3V
+Text Label 2250 5200 2    60   ~ 0
+USB+
+Text Label 2250 5300 2    60   ~ 0
+USB-
+Text Label 2250 5400 2    60   ~ 0
+P4RN
+Text Label 2250 5500 2    60   ~ 0
+P4RP
+Text Label 2250 5600 2    60   ~ 0
+P4TP
+Text Label 2250 5700 2    60   ~ 0
+P4TN
+Text Label 2250 5800 2    60   ~ 0
+P0RN
+Text Label 2250 5900 2    60   ~ 0
+P0RP
+Text Label 2250 6000 2    60   ~ 0
+P0TP
+Text Label 2250 6100 2    60   ~ 0
+P0TN
+Text Label 2250 6250 2    60   ~ 0
+G#11/PCM_FS
+Text Label 2250 6350 2    60   ~ 0
+G#03/SPI_CS0
+Text Label 2250 6450 2    60   ~ 0
+G#06/SPI_MISO
+Text Label 2250 6550 2    60   ~ 0
+G#10/I2S_SDI/RXD
+Text Label 2250 6650 2    60   ~ 0
+G#16/RXD2
+Text Label 2250 6750 2    60   ~ 0
+G#07/I2S_CLK
+Text Label 2250 6850 2    60   ~ 0
+G#15/TXD2
+Text Label 2250 6950 2    60   ~ 0
+GND
+Wire Wire Line
+	2500 2400 2250 2400
+$EndSCHEMATC
