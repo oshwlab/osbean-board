@@ -1,10 +1,15 @@
-EESchema Schematic File Version 2  date 2014/12/30 17:54:50
+EESchema Schematic File Version 2  date 2015/1/14 16:22:56
 LIBS:C
 LIBS:IC
 LIBS:I-O
 LIBS:power
 LIBS:rcl
 LIBS:gl
+LIBS:ATMEGA32U4-cache
+LIBS:uPD720114-cache
+LIBS:vc-cache
+LIBS:vocore-cache
+LIBS:SchumyHao
 LIBS:vocore-cache
 EELAYER 27 0
 EELAYER END
@@ -12,7 +17,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "30 dec 2014"
+Date "14 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1590,25 +1595,21 @@ Text Label 5250 3100 0    60   ~ 0
 DP2
 Text Label 6250 1700 2    60   ~ 0
 DP2
-Text Label 6250 1800 2    60   ~ 0
-GND
-$Comp
-L IO_M04X1 JP9
-U 1 1 549C186C
-P 6700 1550
-F 0 "JP9" H 6705 2045 60  0000 C CNN
-F 1 "IO_M04X1" H 6755 1950 60  0000 C CNN
-F 2 "IO_M04X1" H 6765 1300 60  0001 C CNN
-F 3 "~" H 6700 1550 60  0000 C CNN
-	1    6700 1550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6250 1500 6450 1500
 Wire Wire Line
 	6250 1600 6450 1600
 Wire Wire Line
 	6250 1700 6450 1700
-Wire Wire Line
-	6250 1800 6450 1800
+$Comp
+L IO_M03X1 JP9
+U 1 1 54B4B18C
+P 6700 1600
+F 0 "JP9" H 6700 1350 60  0000 C CNN
+F 1 "IO_M03X1" H 6750 1850 60  0000 C CNN
+F 2 "IO_M03X1" H 6760 1255 60  0001 C CNN
+F 3 "~" H 6700 1600 60  0000 C CNN
+	1    6700 1600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

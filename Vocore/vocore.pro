@@ -1,6 +1,6 @@
-update=2014/12/26 17:52:15
+update=2015/1/13 10:33:14
 version=1
-last_client=pcbnew
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -8,28 +8,13 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=../../../../../../common/lib;../../../../../../common/lib-request
-NetFmtName=PcbnewAdvanced
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=C
-LibName2=IC
-LibName3=I-O
-LibName4=power
-LibName5=rcl
-LibName6=gl
 [pcbnew]
 version=1
 LastNetListRead=vocore.net
 UseCmpFile=0
-PadDrill=0.65
-PadSizeH=1
-PadSizeV=1
+PadDrill=1
+PadSizeH=1.7
+PadSizeV=3.2
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3
@@ -42,7 +27,7 @@ DrawSegmentWidth=0.0762
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.2
 [pcbnew/libraries]
-LibDir=../../../../../../common/lib;../../../../../../common/lib-request;../../../../../../common/lib/logo V03/BACK;../../../../../../common/tools
+LibDir=../../rhky-pcb/common/lib;../../rhky-pcb/common/lib-request
 LibName1=C
 LibName2=IC
 LibName3=rcl
@@ -54,3 +39,24 @@ LibName8=OSHW-logo
 LibName9=OSB6
 LibName10=mini6
 LibName11=gl
+LibName12=SchumyHao
+[eeschema]
+version=1
+LibDir=lib;../../rhky-pcb/common/lib-request;../../rhky-pcb/common/lib
+NetFmtName=PcbnewAdvanced
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=C
+LibName2=IC
+LibName3=I-O
+LibName4=power
+LibName5=rcl
+LibName6=gl
+LibName7=ATMEGA32U4-cache
+LibName8=uPD720114-cache
+LibName9=vc-cache
+LibName10=vocore-cache
+LibName11=SchumyHao

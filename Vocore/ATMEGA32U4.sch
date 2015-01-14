@@ -1,10 +1,15 @@
-EESchema Schematic File Version 2  date 2014/12/30 17:54:50
+EESchema Schematic File Version 2  date 2015/1/14 16:22:56
 LIBS:C
 LIBS:IC
 LIBS:I-O
 LIBS:power
 LIBS:rcl
 LIBS:gl
+LIBS:ATMEGA32U4-cache
+LIBS:uPD720114-cache
+LIBS:vc-cache
+LIBS:vocore-cache
+LIBS:SchumyHao
 LIBS:vocore-cache
 EELAYER 27 0
 EELAYER END
@@ -12,7 +17,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "30 dec 2014"
+Date "14 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -656,27 +661,10 @@ Text Label 10400 6000 0    60   ~ 0
 +5V
 Text Label 10400 6200 0    60   ~ 0
 GND
-Text Label 9000 4600 2    60   ~ 0
-+5V
-Text Label 10400 4600 0    60   ~ 0
-GND
 Text Label 10400 6300 0    60   ~ 0
 +3.3V
-Text Label 9000 6400 2    60   ~ 0
-+5V
 Text Label 10400 6400 0    60   ~ 0
 GND
-$Comp
-L IO_M08X2 JP4
-U 1 1 549BB08F
-P 9650 4700
-F 0 "JP4" H 9680 5045 60  0000 C CNN
-F 1 "IO_M08X2" H 9700 4950 60  0000 C CNN
-F 2 "IO_M08X2" H 9700 3960 60  0001 C CNN
-F 3 "~" H 9650 4700 60  0000 C CNN
-	1    9650 4700
-	1    0    0    -1  
-$EndComp
 $Comp
 L IO_M08X2 JP7
 U 1 1 549BB0B8
@@ -688,8 +676,6 @@ F 3 "~" H 9650 5800 60  0000 C CNN
 	1    9650 5800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10150 4600 10400 4600
 Wire Wire Line
 	10150 4700 10400 4700
 Wire Wire Line
@@ -704,8 +690,6 @@ Wire Wire Line
 	10150 5200 10400 5200
 Wire Wire Line
 	10150 5300 10400 5300
-Wire Wire Line
-	9250 4600 9000 4600
 Wire Wire Line
 	9250 4700 9000 4700
 Wire Wire Line
@@ -752,4 +736,17 @@ Wire Wire Line
 	10150 6300 10400 6300
 Wire Wire Line
 	10400 6400 10150 6400
+$Comp
+L IO_M07X2 JP6
+U 1 1 54B499D6
+P 9650 4800
+F 0 "JP6" H 9680 5145 60  0000 C CNN
+F 1 "IO_M07X2" H 9700 5050 60  0000 C CNN
+F 2 "IO_M07X2" H 9700 4170 60  0001 C CNN
+F 3 "~" H 9650 4800 60  0000 C CNN
+	1    9650 4800
+	1    0    0    -1  
+$EndComp
+Text Label 9000 6400 2    60   ~ 0
+GND
 $EndSCHEMATC
