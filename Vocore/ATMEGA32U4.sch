@@ -1,15 +1,13 @@
-EESchema Schematic File Version 2  date 2015/1/14 16:22:56
+EESchema Schematic File Version 2
 LIBS:C
 LIBS:IC
 LIBS:I-O
 LIBS:power
 LIBS:rcl
-LIBS:gl
 LIBS:ATMEGA32U4-cache
 LIBS:uPD720114-cache
 LIBS:vc-cache
 LIBS:vocore-cache
-LIBS:SchumyHao
 LIBS:vocore-cache
 EELAYER 27 0
 EELAYER END
@@ -17,7 +15,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "14 jan 2015"
+Date "10 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""

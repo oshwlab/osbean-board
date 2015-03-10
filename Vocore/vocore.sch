@@ -1,15 +1,13 @@
-EESchema Schematic File Version 2  date 2015/1/14 16:22:56
+EESchema Schematic File Version 2
 LIBS:C
 LIBS:IC
 LIBS:I-O
 LIBS:power
 LIBS:rcl
-LIBS:gl
 LIBS:ATMEGA32U4-cache
 LIBS:uPD720114-cache
 LIBS:vc-cache
 LIBS:vocore-cache
-LIBS:SchumyHao
 LIBS:vocore-cache
 EELAYER 27 0
 EELAYER END
@@ -17,7 +15,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "14 jan 2015"
+Date "10 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -515,8 +513,6 @@ Text Label 1550 5550 2    60   ~ 0
 G#07/I2S_CLK
 Text Label 1550 5650 2    60   ~ 0
 G#15/TXD2
-Text Label 1550 5750 2    60   ~ 0
-GND
 Text Label 10850 6250 0    60   ~ 0
 USB+
 Text Label 10850 6000 0    60   ~ 0
@@ -776,17 +772,6 @@ Text Label 7850 4450 2    60   ~ 0
 RD+
 Text Label 8650 4450 0    60   ~ 0
 RD-
-$Comp
-L IO_M19X1 JP3
-U 1 1 54991128
-P 1900 4850
-F 0 "JP3" H 1755 5895 60  0000 C CNN
-F 1 "IO_M19X1" H 1805 5800 60  0000 C CNN
-F 2 "IO-M19X1-1.27MM" H 1815 3800 60  0001 C CNN
-F 3 "~" H 1900 4950 60  0000 C CNN
-	1    1900 4850
-	-1   0    0    -1  
-$EndComp
 $Comp
 L C_SW_SPSDSMD U17
 U 1 1 54995384
@@ -1123,8 +1108,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 5650 1800 5650
 Wire Wire Line
-	1550 5750 1800 5750
-Wire Wire Line
 	1800 1250 1550 1250
 Wire Wire Line
 	10850 5600 10850 5500
@@ -1232,12 +1215,6 @@ Wire Wire Line
 	8050 4450 7850 4450
 Wire Wire Line
 	8200 6100 8650 6100
-Wire Wire Line
-	1800 4250 1550 4250
-Wire Wire Line
-	1800 4150 1550 4150
-Wire Wire Line
-	1800 4050 1550 4050
 Wire Wire Line
 	8450 5000 8650 5000
 Wire Wire Line
@@ -1397,4 +1374,21 @@ Text Label 4050 6500 0    60   ~ 0
 +5V
 Text Label 2750 7550 2    60   ~ 0
 GND
+$Comp
+L IO_M18X1 JP10
+U 1 1 54FE574D
+P 1900 4750
+F 0 "JP10" H 1755 5795 60  0000 C CNN
+F 1 "IO_M18X1" H 1805 5700 60  0000 C CNN
+F 2 "IO-M18X1-1.27MM" H 1815 3700 60  0001 C CNN
+F 3 "~" H 1900 4750 60  0000 C CNN
+	1    1900 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4050 1800 4050
+Wire Wire Line
+	1550 4150 1800 4150
+Wire Wire Line
+	1550 4250 1800 4250
 $EndSCHEMATC

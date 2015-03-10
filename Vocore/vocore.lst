@@ -110,6 +110,11 @@ eeschema (2013-03-19 BZR 4004)-stable  >> Creation date: 2015/1/4 18:00:19
 | U17        C_SW_SPSDSMD; C_SW_SPSDSMD  Áù½ÇÌùÆ¬²¦¶¯¿ª¹Ø
 | X1         30MHz       ; C_CRY_5.0-3.2
 | X2         16m         ; C_CRY_3.2-2.5
+  1*14   1.27mm²å×ù
+  1*14   1.27mm²å×ù 
+  1*18   1.27mm²å×ù
+  1*12   2.54mm²åÕë
+  2*24   2.54mm²åÕë
 #End Cmp
 
 #åˆ—è¡¨ç»“æŸ
